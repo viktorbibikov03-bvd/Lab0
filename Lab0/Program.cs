@@ -7,22 +7,22 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace ConsoleApp111
+namespace Lab0
 {
-    internal class Lab_7_1
+    internal class Lab0
     {
         public class StudentJournal
         {
-            private static readonly string[] FirstNames = { "Борис", "Григорий", "Евгений", "Кирилл", "Михаил" };
+            public static readonly string[] FirstNames = { "Борис", "Григорий"};
 
-            private static readonly string[] LastNames = { "Иванов", "Сидоров", "Смирнов", "Михайлов", "Николаев", "Морозов" };
+            public static readonly string[] LastNames = { "Иванов", "Сидоров"};
 
-            private static readonly string[] Letters = { "А", "Б", "В" };
+            public static readonly string[] Letters = { "А", "Б"};
             public struct Student
             {
-                public string FirstName { get; set; }
-                public string LastName { get; set; }
-                public string Class { get; set; }
+                public string FirstName;
+                public string LastName;
+                public string Class;
 
                 public override string ToString()
                 {
