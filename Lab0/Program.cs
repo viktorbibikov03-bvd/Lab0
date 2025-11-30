@@ -10,6 +10,7 @@ namespace Lab0
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Изменение в ветке main)");
         }
     }
 }
