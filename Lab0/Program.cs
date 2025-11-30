@@ -11,13 +11,26 @@ namespace Lab0
 {
     internal class Lab0
     {
+        /// <summary>
+        /// Журнал студентов
+        /// </summary>
         public class StudentJournal
         {
+            /// <summary>
+            /// Фамилии студентов
+            /// </summary>
             public static readonly string[] FirstNames = { "Борис", "Григорий"};
-
+            /// <summary>
+            /// Имена студентов
+            /// </summary>
             public static readonly string[] LastNames = { "Иванов", "Сидоров"};
-
+            /// <summary>
+            /// Литеры класса
+            /// </summary>
             public static readonly string[] Letters = { "А", "Б"};
+            /// <summary>
+            /// Информация о студенте
+            /// </summary>
             public struct Student
             {
                 public string FirstName;
@@ -29,7 +42,11 @@ namespace Lab0
                     return $"{LastName} {FirstName}, {Class} класс";
                 }
             }
-
+            /// <summary>
+            /// Создание журнала
+            /// </summary>
+            /// <param name="n">Количество студентов</param>
+            /// <returns>Журнал студентов</returns>
             public static List<Student> GenerateJournal(int n)
             {
                 var random = new Random();
