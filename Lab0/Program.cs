@@ -19,7 +19,7 @@ namespace Lab0
             /// <summary>
             /// Фамилии студентов
             /// </summary>
-            public static readonly string[] FirstNames = { "Борис", "Григорий"};
+            public static readonly string[] FirstNames = { "Борис", "Григорий", "Иван", "Данил"};
             /// <summary>
             /// Имена студентов
             /// </summary>
