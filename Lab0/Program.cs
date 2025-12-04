@@ -19,7 +19,7 @@ namespace Lab0
             /// <summary>
             /// Фамилии студентов
             /// </summary>
-            public static readonly string[] FirstNames = { "Борис", "Григорий"};
+            public static readonly string[] FirstNames = { "Борис", "Григорий","Данил"};
             /// <summary>
             /// Имена студентов
             /// </summary>
@@ -71,7 +71,7 @@ namespace Lab0
             {
                 Console.Write("Введите число учеников в классе: ");
                 int n = int.Parse(Console.ReadLine());
-
+                
                 var journal = GenerateJournal(n);
 
                 foreach (var student in journal)
