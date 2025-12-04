@@ -85,6 +85,7 @@ namespace Lab0
                     Console.WriteLine("Учеников с одинаковыми ФИ нет!");
                 else
                     Console.WriteLine("Ученики с одинаковым ФИ:");
+                //Вывод учеников
                 foreach (var item in duplicates)
                 {
                     string a = item.Student.FirstName + " " + item.Student.LastName;
